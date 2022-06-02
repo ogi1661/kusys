@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Seeds\**" />
+    <Compile Remove="UnitOfWorks\**" />
+    <EmbeddedResource Remove="Seeds\**" />
+    <EmbeddedResource Remove="UnitOfWorks\**" />
+    <None Remove="Seeds\**" />
+    <None Remove="UnitOfWorks\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configurations\CategoryConfiguration.cs" />
+    <Compile Remove="Configurations\ProductConfiguration.cs" />
+    <Compile Remove="Configurations\WorkConfiguration.cs" />
+    <Compile Remove="Migrations\20200626124456_Initial.cs" />
+    <Compile Remove="Migrations\20200626124456_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200626130333_AddPerson.cs" />
+    <Compile Remove="Migrations\20200626130333_AddPerson.Designer.cs" />
+    <Compile Remove="Migrations\20200626131421_AddWork.cs" />
+    <Compile Remove="Migrations\20200626131421_AddWork.Designer.cs" />
+    <Compile Remove="Migrations\20200628143039_addstudent.cs" />
+    <Compile Remove="Migrations\20200628143039_addstudent.Designer.cs" />
+    <Compile Remove="Migrations\20220602082424_course.cs" />
+    <Compile Remove="Migrations\20220602082424_course.Designer.cs" />
+    <Compile Remove="Repositories\CategoryRepository.cs" />
+    <Compile Remove="Repositories\ProductRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KUSYS.Core\KUSYS.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UnitOfWorks\**" />
+    <EmbeddedResource Remove="UnitOfWorks\**" />
+    <None Remove="UnitOfWorks\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Category.cs" />
+    <Compile Remove="Models\Person.cs" />
+    <Compile Remove="Models\Product.cs" />
+    <Compile Remove="Models\Work.cs" />
+    <Compile Remove="Repositories\ICategoryRepository.cs" />
+    <Compile Remove="Repositories\IProductRepository.cs" />
+    <Compile Remove="Services\ICategoryService.cs" />
+    <Compile Remove="Services\IProductService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>

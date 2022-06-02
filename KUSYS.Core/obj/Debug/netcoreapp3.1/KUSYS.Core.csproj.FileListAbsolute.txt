@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\bin\Debug\netcoreapp3.1\KUSYS.Core.deps.json
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\bin\Debug\netcoreapp3.1\KUSYS.Core.runtimeconfig.json
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\bin\Debug\netcoreapp3.1\KUSYS.Core.runtimeconfig.dev.json
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\bin\Debug\netcoreapp3.1\KUSYS.Core.dll
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\bin\Debug\netcoreapp3.1\KUSYS.Core.pdb
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.dll
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.pdb
+C:\Users\hp\Desktop\masaüstü\masaüstü\TestProje\KUSYS\KUSYS.Core\obj\Debug\netcoreapp3.1\KUSYS.Core.genruntimeconfig.cache
